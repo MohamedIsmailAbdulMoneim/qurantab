@@ -100,6 +100,15 @@ body {
 .section:nth-of-type(1) .section__title {
   font-size: 4.2rem;
 }
+.section__description {
+  font-size: 1.4rem;
+  color: var(--color-grayish-blue);
+}
+.section__buttons {
+  display: flex;
+  gap: var(--default-padding);
+  margin-top: var(--default-padding);
+}
 .section__image {
   max-width: 100%;
 }/*# sourceMappingURL=style.css.map */

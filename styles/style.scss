@@ -107,6 +107,17 @@
         font-size: 4.2rem;
     }
 
+    &__description {
+        font-size: 1.4rem;
+        color: var(--color-grayish-blue);
+    }
+
+    &__buttons {
+        display: flex;
+        gap: var(--default-padding);
+        margin-top: var(--default-padding) ;
+    }
+
     &__image {
         max-width: 100%;
     }
